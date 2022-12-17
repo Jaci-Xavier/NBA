@@ -1,0 +1,62 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+	background-color: aquamarine;
+	border-radius: 10%;
+	font-size: 15px;
+	padding: 10px;
+	width: 100px;
+}
+
+.court {
+	margin: 20px auto;
+	width: 52vw;
+	height: 34vw;
+	text-align: center;
+}
+
+.team-field {
+	width: 50%;
+	height: 34vw;
+	background: rgb(250, 170, 46);
+	border: 5px solid rgb(73, 36, 120);
+	overflow: hidden;
+	float: left;
+}
+
+.rotate-position {
+	transform: rotate(180deg);
+}
+
+.three-points {
+	border-width: 10px 10px 10px 0;
+	border-style: solid;
+	border-color: white;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+	height: 80%;
+	width: 80%;
+	background: rgb(73, 36, 120);
+	position: relative;
+	right: 20%;
+	top: 10%;
+}
+
+.free-trows {
+	height: 7vw;
+	width: 17vw;
+	border: 10px solid white;
+	border-radius: 13px;
+	position: absolute;
+	top: 35%
+}
