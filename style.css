@@ -12,7 +12,7 @@ h1 {
 
 button {
 	background-color: aquamarine;
-	border-radius: 10%;
+	border-radius: 50%;
 	font-size: 15px;
 	padding: 10px;
 	width: 100px;
@@ -39,7 +39,7 @@ button {
 }
 
 .three-points {
-	border-width: 10px 10px 10px 0;
+	border-width: 5px 5px 5px 0;
 	border-style: solid;
 	border-color: white;
 	border-bottom-right-radius: 50%;
@@ -55,8 +55,44 @@ button {
 .free-trows {
 	height: 7vw;
 	width: 17vw;
-	border: 10px solid white;
+	border: 5px solid white;
 	border-radius: 13px;
 	position: absolute;
-	top: 35%
+	top: 37%;
+}
+
+.free-trows-circle {
+	margin-right: -3.8vw;
+	height: 7vw;
+	width: 7vw;
+	border-radius: 50%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	position: absolute;
+	top: -14%;
+	left: 78%;
+}
+
+.hits-mistakes {
+	text-align: center;
+	width: 20%;
+	margin: auto;
+}
+
+.hit {
+	background-color: green;
+	border-radius: 50%;
+	margin: 5px auto;
+	padding: 10px;
+	width: 100px;
+}
+
+
+.mistake {
+	background-color: red;
+	border-radius: 50%;
+	margin: 5px auto;
+	padding: 10px;
+	width: 100px;
 }
